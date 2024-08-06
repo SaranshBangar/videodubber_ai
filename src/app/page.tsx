@@ -11,14 +11,18 @@ export default function Home() {
       <div>
         <Navbar />
       </div>
-      <div>
-        <Breadcrumbs />
-      </div>
-      <div>
-        <ProductTitle />
-      </div>
-      <div>
-        <ProductDescription />
+      <div className="w-full flex justify-start items-center">
+        <div className="w-full px-[360px] max-md:px-8">
+          <div>
+            <Breadcrumbs />
+          </div>
+          <div>
+            <ProductTitle />
+          </div>
+          <div>
+            <ProductDescription />
+          </div>
+        </div>
       </div>
       <div>
         <ImageGallery />
